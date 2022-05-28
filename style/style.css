@@ -73,6 +73,7 @@ input:focus {
 #notes-board {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0;
 }
 
 .note {
