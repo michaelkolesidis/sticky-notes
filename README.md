@@ -27,7 +27,7 @@
 
 <p>This is one of my first projects (and it shows). Notes are stored in an array as objects, and then rendered from there.</p>
 
-
+<p>Data is not saved in local storage.</p>
 
 ## License
 
