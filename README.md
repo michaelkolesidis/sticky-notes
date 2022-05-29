@@ -32,7 +32,7 @@
 ## License
 
 Copyright (c) 2022 Michael Kolesidis<br>
-Licensed under the [GNU General Public License v3.0](https://github.com/michaelkolesidis/sticky-notes/blob/main/LICENSE).
+Licensed under the [GNU General Public License v3.0](https://github.com/michaelkolesidis/sticky-notes/blob/master/LICENSE).
 
 
 
