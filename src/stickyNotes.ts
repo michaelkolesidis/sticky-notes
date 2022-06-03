@@ -5,7 +5,7 @@ const GREEN = `rgb(204,255,204)`;
 const PURPLE = `rgb(204,204,255)`;
 const PINK = `rgb(255,204,204)`;
 
-const input = document.getElementById("input");
+const input = <HTMLInputElement>document.getElementById("input");
 
 const addButton = document.getElementById("add-button");
 const notesBoard = document.getElementById("notes-board");
@@ -15,6 +15,7 @@ const stickyNotes = [];
 
 const createNote = function () {
   const text = input.value;
+
   const note = {
     text: text,
     checked: false,
@@ -40,7 +41,7 @@ const createNote = function () {
   }
 
   let rotation = Math.floor(Math.random() * 13) - 6;
-  note.rotation = rotation;
+  note.rotation = `${rotation}`;
 
   stickyNotes.push(note);
 };

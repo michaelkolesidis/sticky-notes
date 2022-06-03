@@ -1,0 +1,23 @@
+{
+  "name": "sticky-notes-ts",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">   <img src=\"./screenshots/sticky-notes.png\">   <h1>Sticky Notes</h1>",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkolesidis/sticky-notes.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/michaelkolesidis/sticky-notes/issues"
+  },
+  "homepage": "https://github.com/michaelkolesidis/sticky-notes#readme",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
+}
